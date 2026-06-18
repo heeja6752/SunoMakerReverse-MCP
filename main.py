@@ -71,4 +71,12 @@ def songFormat():
 
 import os
 
+from fastapi import FastAPI
+
+test_app = FastAPI()
+
+@test_app.get("/")
+def root():
+    return {"status": "ok"}
+
 app = mcp.streamable_http_app()
