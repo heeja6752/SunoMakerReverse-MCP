@@ -70,6 +70,4 @@ def songFormat():
 """
 
 if __name__ == "__main__":
-    print("BEFORE RUN")
     mcp.run()
-    print("AFTER RUN")
