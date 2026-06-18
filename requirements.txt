@@ -1,2 +1,3 @@
-mcp
-fastmcp
+mcp>=1.10.0
+uvicorn
+fastapi
