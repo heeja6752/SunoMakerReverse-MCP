@@ -1,3 +1,7 @@
+import mcp
+
+print("MCP VERSION:", mcp.__version__)
+
 from pathlib import Path
 from mcp.server.fastmcp import FastMCP
 
