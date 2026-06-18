@@ -17,7 +17,11 @@ RULES = load_file("규칙.txt")
 GENRES = load_file("Ai노래연구.txt")
 LYRICS = load_file("가사목록.txt")
 
-mcp = FastMCP("SunoMakerReverse")
+mcp = FastMCP(
+    "SunoMakerReverse",
+    host="0.0.0.0",
+    port=8080
+)
 
 
 @mcp.tool()
