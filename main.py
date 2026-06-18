@@ -71,5 +71,4 @@ def songFormat():
 
 import os
 
-if __name__ == "__main__":
-    mcp.run(transport="streamable-http")
+app = mcp.streamable_http_app()
